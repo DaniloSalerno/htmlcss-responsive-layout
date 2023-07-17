@@ -121,11 +121,43 @@ img {
 
 
 /* #planning */
+#planning {
+    color: var(--sr-white);
+}
 
+#planning h2 {
+    font-size: 2rem;
+    padding: 3rem 0;
+}
 
 .develop {
     background-color: var(--sr-white);
+    color: var(--sr-black);
+    margin-top: 2rem;
+    border-radius: 2rem;
+    padding: 2rem 0;
 }
+
+.develop h3 {
+    font-size: 1.5rem;
+    padding-bottom: 1.5rem;
+}
+
+.develop p {
+    font-style: italic;
+    font-size: 1.1rem;
+}
+
+.develop .icon {
+    margin-top: 2rem;
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    background-color: var(--sr-section);
+    padding: 1rem;
+    border-radius: 50%;
+}
+
 
 
 
@@ -288,9 +320,30 @@ img {
         width: calc(100% / 12 * 4);
     }
 
+    .col-6-lg {
+        width: calc(100% / 12 * 6);
+    }
+
     .container-small-centered-lg {
         width: 40%;
         margin: auto;
+    }
+
+    #planning .img-left {
+        padding-top: 4rem;
+    }
+
+    #planning h2 {
+        padding-top: 5rem;
+        padding-bottom: 3rem;
+    }
+
+    .develop {
+        padding: 2rem;
+    }
+
+    #planning .card {
+        padding: 10rem 3rem 0 3rem;
     }
 }
 
