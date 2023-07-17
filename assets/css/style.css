@@ -70,6 +70,25 @@ img {
 }
 
 
+
+/* #testimonials */
+#testimonials img {
+    width: 60%;
+}
+
+
+
+/* #benefits */
+#benefits {
+    background-color: var(--sr-section);
+}
+
+#benefits .col-12 {
+    background-color: var(--sr-white);
+}
+
+
+
 /* #endregion main */
 
 
@@ -139,6 +158,11 @@ img {
     .col-6-md {
         width: calc(100% / 12 * 6);
     }
+
+    #testimonials .card {
+        display: flex;
+    }
+
 }
 
 @media screen and (min-width: 1024px) {
@@ -155,11 +179,17 @@ img {
         max-width: 1152px;
     }
 
-    .col-8-md {
+    #application .col-8-md {
         display: flex;
     }
 
+    #testimonials .card {
+        display: flex;
+    }
 
+    .col-4-lg {
+        width: calc(100% / 12 * 4);
+    }
 }
 
 
