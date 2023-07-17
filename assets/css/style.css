@@ -6,8 +6,44 @@
     box-sizing: border-box;
 }
 
-body {
-    font-family: 'Nunito Sans', sans-serif;
+:root {
+    --sr-black: rgb(0, 0, 0); 
+    --sr-white: rgb(255, 255, 255); 
+    --sr-dark: rgb(51, 51, 51);
+    --sr-primary-dark: rgb(0, 132, 253);
+    --sr-primary-light: rgb(181, 221, 255);
+    --sr-section: rgb(151, 146, 228);
+    --sr-danger: rgb(253, 193, 95);
 }
 
+body {
+    font-family: 'PT Sans', sans-serif;
+}
+
+header {
+    background-color: var(--sr-primary-dark);
+}
 /* #endregion commons */
+
+/* #region utilities */
+.d-flex {
+    display: flex;
+}
+
+.justify-between {
+    justify-content: space-between;
+}
+/* #endregion utilities */
+
+
+
+
+
+
+/* #region debug */
+
+.debug header {
+    border: 1px dashed;
+}
+
+/* #endregion debug */
