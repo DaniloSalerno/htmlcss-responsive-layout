@@ -22,10 +22,28 @@ body {
 
 header {
     background-color: var(--sr-primary-dark);
+    color: var(--sr-white);
+}
+
+a {
+    color: var(--sr-white);
+    text-decoration: none;
 }
 /* #endregion commons */
 
+/* #region header */
+
+.left_nav, .right_nav {
+    padding: 1rem;
+}
+
+/* #endregion header */
+
+
+
 /* #region utilities */
+
+/* flex */
 .d-flex {
     display: flex;
 }
@@ -33,8 +51,43 @@ header {
 .justify-between {
     justify-content: space-between;
 }
+
+.items-center {
+    align-items: center;
+}
+
+.wrap {
+    flex-wrap: wrap;
+}
+
+.gap-1 {
+    gap: 0.5rem;
+}
+
+
+.list-unstyled {
+    list-style: none;
+}
+
+.d-none {
+    display: none;
+}
 /* #endregion utilities */
 
+/* #region media query */
+
+@media screen and (min-width: 1200px) {
+    .right_nav .d-lg-none {
+        display: none;
+    }
+
+    .right_nav .d-lg-block {
+        display: block;
+    }
+}
+
+
+/* #endregion media query */
 
 
 
@@ -47,3 +100,6 @@ header {
 }
 
 /* #endregion debug */
+
+
+
