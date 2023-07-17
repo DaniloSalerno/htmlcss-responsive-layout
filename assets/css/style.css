@@ -63,9 +63,50 @@ img {
 
 
 /* #application */
-#application .col-12 {
+
+#application .card {
     background-color: var(--sr-primary-light);
+    padding: 1rem;
+    border-radius: 1rem;
 }
+ #application .row {
+    margin: 0 -1.5rem;
+}
+
+#application .col-12 {
+    padding: 0 1.5rem;
+} 
+
+
+#application h3, #application i {
+    color: var(--sr-primary-dark);
+}
+
+#application p {
+    padding: 2rem 0;
+}
+
+#application img {
+    padding-top: 3rem;
+    display: block;
+}
+
+#application .btn {
+    padding-bottom: 2rem;
+}
+
+#application .btn a {
+    display: block;
+    width: 80%;
+    text-align: center;
+    font-size: 1.25rem;
+    font-weight: 700;
+}
+
+#application .btn a span {
+    padding: 0 1rem;
+}
+
 
 
 
@@ -148,12 +189,20 @@ img {
     list-style: none;
 }
 
+.text-center {
+    text-align: center;
+}
+
 .d-none {
     display: none;
 }
 
 .col-12 {
     width: 100%;
+}
+
+.py-4 {
+    padding: 2rem 0;
 }
 
 .btn a {
@@ -164,6 +213,15 @@ img {
 .btn-light a {
     background-color: var(--sr-white);
     color: var(--sr-black);
+}
+
+.btn-blue a {
+    background-color: var(--sr-primary-dark);
+    color: var(--sr-white);
+}
+
+#application .btn-blue a i {
+    color: var(--sr-white);
 }
 
 /* #endregion utilities */
@@ -208,7 +266,7 @@ img {
         max-width: 1152px;
     }
 
-    #application .col-8-md {
+    #application .col-8-md .card {
         display: flex;
     }
 
