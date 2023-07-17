@@ -25,6 +25,11 @@ header {
     color: var(--sr-white);
 }
 
+footer {
+    background-color: var(--sr-dark);
+    color: var(--sr-white);
+}
+
 a {
     color: var(--sr-white);
     text-decoration: none;
@@ -92,6 +97,17 @@ img {
 /* #endregion main */
 
 
+
+
+
+/* #region footer */
+
+.footer_top, .footer_bottom {
+    padding: 2rem 0;
+}
+
+
+/* #endregion footer */
 
 
 
