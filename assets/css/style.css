@@ -58,6 +58,18 @@ img {
     background-color: var(--sr-primary-light);
 }
 
+
+
+/* #planning */
+#planning {
+    background-color: var(--sr-section);
+}
+
+.develop {
+    background-color: var(--sr-white);
+}
+
+
 /* #endregion main */
 
 
@@ -147,6 +159,7 @@ img {
         display: flex;
     }
 
+
 }
 
 
@@ -162,7 +175,7 @@ img {
     border: 1px dashed;
 }
 
-.debug #application .col-12 {
+.debug .col-12 {
     min-height: 200px;
     border: 1px dashed;
     margin: 1rem 0;
