@@ -601,11 +601,11 @@ img {
     }
 
     #about .col-4-md {
-        padding: 2rem;
+        padding: 0.5rem;
     }
 
     #about .apex {
-        right: 1.5rem;
+        right: -0.5rem;
         top: 0.75rem;
     }
 
