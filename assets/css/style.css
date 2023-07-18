@@ -298,6 +298,77 @@ img {
     color: var(--sr-section);
 }
 
+
+
+
+
+/* #start */
+
+#start .get_started {
+    text-transform: uppercase;
+    color: rgba(255, 255, 255, 0.75);
+    letter-spacing: 0.1rem;
+    padding-bottom: 1rem;
+}
+
+#start .simple {
+    font-weight: bold;
+    font-size: 2rem;
+    color: var(--sr-white);
+    padding-bottom: 2rem;
+}
+
+#start .free {
+    font-size: 3.5rem;
+    font-weight: bold;
+    color: var(--sr-danger);
+    padding-bottom: 2rem;
+}
+
+#start p {
+    line-height: 1.5rem;
+    color: var(--sr-white);
+    padding-bottom: 3rem;
+}
+
+#start .btn-violet-reverse a {
+    display: block;
+    background-color: var(--sr-white);
+    color: var(--sr-section);
+    font-weight: bold;
+    font-size: 1.1rem;
+    padding: 1rem 1.5rem;
+    border-radius: 3rem;
+}
+
+#start .btn-violet-reverse {
+    width: 80%;
+    margin: auto;
+    padding-bottom: 2rem;
+}
+
+#start .copyright {
+    color: var(--sr-white);
+    padding-bottom: 3rem;
+}
+
+#start .copyright a {
+    text-decoration: underline;
+}
+
+#start .copyright span::before, #start .copyright span::after {
+    content: '';
+    display: inline-block;
+    width: 0.3rem;
+    height: 0.3rem;
+    vertical-align: middle;
+    background-color: var(--sr-white);
+    border-radius: 50%;
+    margin: 0 0.25rem;
+}
+
+
+
 /* #endregion main */
 
 
@@ -449,6 +520,16 @@ img {
         right: 1.5rem;
         top: 0.75rem;
     }
+
+    #start .btn-violet-reverse {
+        width: auto;
+        display: inline-block;
+    }
+
+    #start .btn-violet-reverse a {
+       padding: 1rem 5rem;
+    }
+    
 
 
 }
