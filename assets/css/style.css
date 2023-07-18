@@ -91,6 +91,7 @@ img {
 #application img {
     padding-top: 3rem;
     display: block;
+    width: 90%;
 }
 
 #application .btn {
@@ -206,9 +207,50 @@ img {
 
 /* #benefits */
 
+#benefits h3 {
+    color: var(--sr-white);
+    font-size: 2rem;
+    padding-bottom: 2rem;
+}
+
+#benefits .card{
+    padding: 2rem;
+
+    background-color: var(--sr-white);
+    border-radius: 1.5rem;
+}
 
 #benefits .col-12 {
-    background-color: var(--sr-white);
+    padding: 1rem;
+}
+
+#benefits .row {
+    margin: 0 -1rem;
+}
+
+#benefits .card span, #benefits .card h4 {
+    color: var(--sr-section);
+}
+
+#benefits .card > span {
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+#benefits .card > h4 {
+    font-size: 1.5rem;
+    padding-bottom: 1.5rem;
+    padding-top: 1rem;
+}
+
+#benefits .card .btn-violet a {
+    background-color: var(--sr-section);
+    padding:0.75rem 3.5rem;
+}
+
+#benefits .card .btn-violet {
+    padding-top: 2rem;
+    padding-bottom: 1rem;
 }
 
 
@@ -366,6 +408,10 @@ img {
 
     #application .col-8-md .card {
         display: flex;
+    }
+
+    #application .col-8-md .card > div {
+        width: 50%;
     }
 
     #testimonials .card {
