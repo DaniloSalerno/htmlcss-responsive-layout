@@ -367,8 +367,6 @@ img {
     margin: 0 0.25rem;
 }
 
-
-
 /* #endregion main */
 
 
@@ -378,7 +376,12 @@ img {
 /* #region footer */
 
 .footer_top, .footer_bottom {
-    padding: 2rem 0;
+    padding: 3rem 2rem;
+}
+
+.footer_bottom a {
+    text-decoration: underline;
+    color: var(--sr-section);
 }
 
 
