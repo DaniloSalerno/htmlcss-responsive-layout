@@ -23,6 +23,10 @@ body {
 header {
     background-color: var(--sr-primary-dark);
     color: var(--sr-white);
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 500;
 }
 
 footer {
@@ -46,9 +50,45 @@ img {
 
 /* #region header */
 
-.left_nav, .right_nav {
-    padding: 1rem 0;
+.right_nav .nav_links > li {
+    padding: 2rem 0;
 }
+
+.nav_links > li {
+    position: relative;
+}
+
+.nav_links h4 {
+    padding-bottom: 1rem;
+}
+
+
+.nav_links .col-6 li a {
+    display: block;
+    padding: 1rem;
+}
+
+.nav_links .col-6 h4 {
+    padding: 0 1rem;
+}
+.nav_links .col-6 li a:hover {
+    background-color: var(--sr-white);
+    color: var(--sr-primary-dark);
+}
+
+.hidden_menu_planning, .hidden_menu_testimonials, .hidden_menu_feature, .hidden_menu_about {
+    display: none;
+    position: absolute;
+    top: 100%;
+    right: 0;
+    background-color: var(--sr-primary-dark);
+}
+
+.li_planning:hover .hidden_menu_planning, .li_testimonials:hover .hidden_menu_testimonials, .li_feature:hover .hidden_menu_feature, .li_about:hover .hidden_menu_about  {
+    display: block;
+    min-width: 500px;
+}
+
 
 /* #endregion header */
 
@@ -401,6 +441,10 @@ img {
 
 .d-none {
     display: none;
+}
+
+.col-6 {
+    width: calc(100% / 12 * 6);
 }
 
 .col-12 {
